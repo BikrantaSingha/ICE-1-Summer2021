@@ -18,14 +18,22 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
 import static java.lang.Math.*;
 import java.util.*;
 
+
+//Card Trick and the rest of the code
 public class CardTrick {
     
     public static Scanner userInput = new Scanner(System.in);
     public static Card userCard = new Card();
     public static Card[] magicHand = new Card[7];
     
+    
     public static void main(String[] args)
-    { 
+    {
+        //adding hardcoded lucky card
+        Card luckyCard = new Card();
+        luckyCard.setSuit(luckyCard.SUITS[0]);
+        luckyCard.setValue(1);
+        
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
