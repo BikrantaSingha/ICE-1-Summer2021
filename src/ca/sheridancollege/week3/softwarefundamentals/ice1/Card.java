@@ -15,6 +15,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * @author sivagama 
  * @modifier : Bikranta Singha
  * @modifiedDate : 1st June, 2021
+ * @studentNumber : 991546415
  */
 public class Card {
 
