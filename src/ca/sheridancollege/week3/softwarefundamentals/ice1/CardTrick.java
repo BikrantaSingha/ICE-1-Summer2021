@@ -29,7 +29,7 @@ public class CardTrick {
     
     public static void main(String[] args)
     {
-        //adding hardcoded lucky card
+        //adding hardcoded luckyCard object
         Card luckyCard = new Card();
         luckyCard.setSuit(luckyCard.SUITS[0]);
         luckyCard.setValue(1);
